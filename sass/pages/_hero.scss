@@ -1,0 +1,78 @@
+.hero{
+    
+    flex-direction: column;
+    gap: 2rem;
+    @include respond(tab-port){
+
+        flex-direction: row;
+       // gap: 5rem;
+    }
+    &__detials{
+
+        text-align: center;
+        order: 2;
+        @include respond(tab-port){
+            text-align: left;
+           flex: 1;
+            order: 1;
+           
+        }
+
+    }
+
+    &__mainheading{
+
+        font-size: $fontsizeh1;
+         color: $DarkBlue;
+         font-weight: 700;
+         max-width: 60rem;
+         margin: auto;
+         
+
+
+    }
+
+    &__detial{
+
+        color: $DarkGrayishBlue;
+        font-size: $fontsizeh3;
+        line-height: 1.5;
+        margin-top: 1rem;
+        @include respond(tab-port){
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+            max-width: 40rem;
+        }
+
+    }
+
+    .btnhero{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        @include respond(tab-port){
+      margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        }
+    }
+
+    .heroimg{
+       order: 1;
+       width: 100%;
+       height: 100%;
+     
+       @include respond(tab-port){
+        flex: 1;
+        order: 2;
+    }
+
+       
+        .img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+}

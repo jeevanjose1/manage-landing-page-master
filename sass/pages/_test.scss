@@ -1,0 +1,80 @@
+.test{
+
+    max-width: 111rem;
+    margin: 5rem auto;
+    padding: 2rem;
+    height: 100%;
+  
+    &__mainheading{
+        font-size: $fontsizeh4;
+        color: $DarkBlue;
+        text-align: center;
+        margin-bottom: 10rem;
+    }
+
+    &__reviwes{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    
+        position: relative;
+
+        @media screen and (max-width:700px){
+            flex-direction: column;
+        }
+        
+        
+        
+        
+    
+    }
+
+    &__testimo{
+        @media screen and (max-width:700px){
+            margin-bottom: 6rem;
+        }
+        
+       text-align: center;
+       padding: 1rem;
+       width: 100%;
+       
+      background-color: $VaryLightGray;
+      top:0;
+
+  
+        
+       
+
+    }
+
+    &__subhead{
+         
+        font-size: $fontsizeh3;
+        color: $DarkBlue;
+
+    }
+
+    &__detials{
+        font-size: $fontsizeh3;
+        color: $DarkGrayishBlue;
+        line-height: 1.5;
+
+    }
+
+    &__img{
+
+        width: 7rem;
+        height: 7rem;
+        margin-top: -5rem;
+    }
+
+    &__rev{
+       
+        
+    }
+
+}

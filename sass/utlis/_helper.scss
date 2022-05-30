@@ -1,0 +1,41 @@
+.flex{
+    display: flex;
+   
+    &--jc{
+        justify-content: center;
+
+    }
+
+    &--jsp{
+        justify-content: space-between;
+
+    }
+
+    &--ai{
+        align-items: center;
+    }
+
+}
+
+
+.container{
+    max-width: 111rem;
+    margin: auto;
+
+    &--pall{
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+    }
+
+    &--px{
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    &--py{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+}

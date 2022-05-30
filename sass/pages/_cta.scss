@@ -1,0 +1,38 @@
+footer{
+    figure{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    background-color:$BrightRed ;
+    height: auto;
+    padding: 2rem 0;
+    @media screen and (max-width:700px){
+        height: auto;
+    }
+    ul{
+        margin-bottom: 2rem;
+        @media screen and (max-width:700px){
+           flex-direction: column;
+        }
+        li{
+list-style: none;
+text-decoration: none;
+font-size: 1.6rem;
+@media screen and (max-width:700px){
+    padding: 1rem;
+}
+padding: 2rem;
+a{
+    color: white;
+
+}
+        }
+    }
+
+    p{
+        text-align: center;
+        font-size: 1.2rem;
+        color: white;
+
+    }
+}
